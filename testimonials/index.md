@@ -1546,3 +1546,16 @@ The expressiveness and power of F# has resulted in shorter build cycles, simpler
 Type Providers have let us add support for a lot of data formats (Government formats, Excel files, third party sources) very quickly. Pattern matching has made it possible to simplify complex business logic. F# has been a joy to work with, and we're using it more and more throughout our products now.
 
 <div class="keywords">startup, finance, taxation, type providers, functional programming</div>
+
+---
+
+> Programming is not about typing speed, but it surely helps maintainability that you can just focus single little parts. The original intention of the developer is easily readable from the F#-code.
+
+1. **Tuomas Hietanen, Fund Ourselves**
+2. [Fund Ourselves](https://fundourselves.com)
+
+Fund Ourselves is peer-to-peer short-term lending platform, "from the people to the people". The backend is entirely F#. We use heavily type providers; SQLProvider, and many APIs with FSharp.Data. Simple little separate functions, stateless web-server(s) in Azure, can be parallelised easily. Farmer can deploy the full cloud-first infrastructure.
+
+After getting our FCA permission, we have been operational over 3 years now, and having more than 250K registered users. With several years of active development the codebase is still small in code line count, and allowing us to focus on new features. Programming is not about typing speed, but it surely helps maintainability that you can just focus single little parts. F# supports the developer writing good coding practices. The original intention of the developer is easily readable from the F#-code. F# community has good open-source tools and as a small company we need to use them, and also help by doing our non-core-business functions as open-source libraries when possible.
+
+<div class="keywords">startup, fintech, finance, type providers, maintainability</div>
